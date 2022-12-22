@@ -1,0 +1,247 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+.sec_img{
+    background: url(./headImg.png) no-repeat;
+    max-width: 1468px;
+    height: 479px;
+}
+.text_clr{
+    color: #f8d30b;
+}
+.text2{
+    color: white;
+    padding-top: 138px;
+    padding-left: 172px;
+}
+.get_btn{
+    padding-left: 172px;
+}
+.sec2_row{
+    background-color: #f4f6f8;
+}
+.read_clr{
+    color:#02c458
+}
+.text-on-img1{
+    position: absolute;
+    bottom: -140px;
+    left: 70px;
+    padding: 20px;
+    width: 75% !important;
+}
+.text-on-img2{
+    position: absolute;
+    bottom: -140px;
+    left: 50px;
+    padding: 6px;
+    width: 75% !important;
+}
+.text-on-img3{
+    position: absolute;
+    bottom: -140px;
+    left: 40px;
+    padding: 20px;
+    width: 75% !important;
+}
+.sec4_bg{
+    background-color: #114bce;
+    margin-top: 180px;
+}
+.sec5_div{
+    background-color: #114bce;
+}
+.hapy_cust{
+    color: #86e1b9;
+}
+.bus_dem_div{
+    top: 95px;
+    left: 40px;
+    position: absolute;
+}
+.bus_dem_space{
+    margin-top: 93px!important;
+}
+.sec6_bg{
+    background-color: #f3f7ff;
+    margin-top: 100px;
+    padding-bottom: 130px;
+}
+.quick_txt{
+    padding-top: 77px;
+}
+.support_div{
+    top: 160px;
+    left: 340px;
+    position: absolute;
+    width: 60%;
+}
+.btn_need{
+    background-color:  #02c458 !important;
+}
+.sec_8{
+    background-color: #1f2941;
+}
+.form_input_bg{
+    background-color: #f8f8f8 !important;
+    border: 0px!important;
+}
+/* error message */
+#errorf_name{
+    color: red;
+    font-weight: normal;
+}
+#errorl_name{
+    color: red;
+    font-weight: normal;
+}
+#erroraddress_name{
+    color: red;
+    font-weight: normal;
+}
+#error_phone{
+    color: red;
+    font-weight: normal;
+}
+#error_code{
+    color: red;
+    font-weight: normal;
+}
+#error_gender{
+    color: red;
+    font-weight: normal;
+}
+#error_state{
+    color: red;
+    font-weight: normal;
+}
+#error_mail{
+    color: red;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+/* Android device */
+@media (min-width:320px) and (max-width:767px){
+.log-img{
+    width: 200px;
+}
+.sec_img{
+    background: none #112622;
+    height: auto;
+}
+.text2{
+    color: white;
+    padding: 30px 0px 30px 0px;
+    font-style: oblique;
+    font-size: 20px!important;
+}
+.text-on-img1{
+    position: unset;
+    bottom: -140px;
+    left: 70px;
+    padding: 18px;
+    text-align: center;
+    
+}
+.text-on-img2{
+    position: unset;
+    padding: 10px;
+    text-align: center;
+}
+.text-on-img3{
+    position: unset;
+    padding: 11px;
+    text-align: center;
+}
+.sec4_bg{
+    background-color: #114bce;
+    margin-top: 10px;
+}
+.bus_dem_div{
+    top: 95px;
+    left: 40px;
+    position: unset;
+}
+.bus_dem_space{
+    margin-top: 8px!important;
+}
+.sec6_bg{
+    background-color: #f3f7ff;
+    margin-top: 25px;
+    padding-bottom: 70px;
+}
+.quick_txt{
+    padding-top: 30px;
+}
+.support_div{
+    top: 160px;
+    left: 340px;
+    position: unset;
+    width: 100%;
+}
+
+}
+
+/* tablet device */
+@media (min-width:768px) and (max-width: 1023px){
+    .sec_img{
+        background: none #112622;
+        height: auto;
+    }
+    .text2{
+        color: white;
+        padding: 30px 0px 30px 0px;
+        font-style: oblique;
+        font-size: 25px!important;
+    }
+    .text-on-img1{
+        position: unset;
+        padding: -13px;
+        text-align: center;
+    }  
+    .text-on-img2{
+        position: unset;
+        padding: 21px;
+        text-align: center;
+    } 
+    .text-on-img3{
+        position: unset;
+        padding: 20px;
+        text-align: center;
+    }
+    .sec4_bg{
+        background-color: #114bce;
+        margin-top: 15px;
+    }
+    .bus_dem_div{
+        top: 95px;
+        left: 40px;
+        position: unset;
+    }
+    .bus_dem_space{
+        margin-top: 10px!important;
+    }
+    .sec6_bg{
+        background-color: #f3f7ff;
+        margin-top: 38px;
+        padding-bottom: 100px;
+    }
+    .quick_txt{
+        padding-top: 30px;
+    }
+    .support_div{
+        top: 160px;
+        left: 340px;
+        position: unset;
+        width: 98%;
+    }
+}
